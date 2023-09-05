@@ -1,0 +1,36 @@
+#s{
+    margin-left: 500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6YKF6540sn23g0kpSxVaBgoSQMlgTBZzE5w&usqp=CAU");
+    border-radius: 30px;
+    background-blend-mode:hard-light;
+    /* backface-visibility: visible */
+;
+
+    font-style:bold;
+    font-size: x-large;
+    border-color: black;
+}
+.main {
+    margin: 50px;
+ background-image: url("https://media.istockphoto.com/id/1190403335/vector/rose-gold-glitter-partickles-isolated-on-transparent-background-falling-sparkling-confetti.jpg?s=612x612&w=0&k=20&c=zLCIQDVFWpi0gDn_kJg1HRGwFgKFlLiwQLrY5JWYJYw=");
+ background-size: cover;
+    border:40px;
+    bordercolor: black;
+    border-radius: 0cqmax;
+    font-style: italic;
+    
+}
+body{
+ background-image: url("https://img.freepik.com/premium-vector/glitter-gold-particles-sparkles-golden-sparkling-magical-dust-light-effect-black-transparent-background-sparks-stars-shine-with-special-light_136982-656.jpg");
+ background-size: cover;
+ font-style: unset;
+ 
+}
+#sno{
+    font-size: 25px;
+}
+#but{
+    border: black;
+    border-style: solid;
+    font-weight: bold;
+}
