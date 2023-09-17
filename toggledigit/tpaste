@@ -1,0 +1,41 @@
+//usestate hooks
+import React from 'react';
+import { useState } from 'react';
+import data from './data'
+const ToggleDigit=()=>{
+  return(
+  <>
+  <h1>unnati</h1>
+  <h1>ansh</h1>
+  <h1>avni</h1>
+  <h1>parul</h1>
+  </>
+  )
+}
+function App(){
+  let counter = 0;
+  const ChangeDigit =()=>{
+    counter++
+    setDigit(counter);
+  }
+ // const sum = () => 2+2;//shortcut
+  const [digit, setDigit] = useState(0);
+  return(
+    <>
+    <ToggleDigit/>
+    <h1>Counter</h1>
+    <h1>{digit}</h1>
+    <button onClick={ChangeDigit} >change state/increment</button>
+    </>
+  )
+}
+export default App;
+  // hooks are never conditionally rendered
+  //hooks are always made inside function or components
+  //first letter capital for components
+  //readymade tage are always in small like h1
+  //const(Name, Setname) = usestate("");
+ 
+
+
+  
